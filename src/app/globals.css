@@ -18,7 +18,7 @@
 
 body {
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
+  background: radial-gradient(circle at center, #c6c3f7, #f8efd2), linear-gradient(
       to bottom,
       transparent,
       rgb(var(--background-end-rgb))
@@ -26,8 +26,14 @@ body {
     rgb(var(--background-start-rgb));
 }
 
+/* Add #F9EDC8 to specific elements */
+.special-element {
+  background-color: #f8df94;
+}
+
 @layer utilities {
   .text-balance {
     text-wrap: balance;
+    color: black; /* Set text color to black */
   }
 }
