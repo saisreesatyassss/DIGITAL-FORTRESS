@@ -36,7 +36,7 @@ function page() {
           <h4 className='text-black font-semibold text-center'>Our Services</h4>
           <h1 className='text-4xl text-[#020329] font-semibold text-center'>With Quality Services For You</h1>
           <div className="flex flex-col justify-left gap-6">
-            <div className="flex md:flex-row flex-col gap-6 w-full md:ml-[200px]">
+            <div className="flex md:flex-row flex-col gap-6 md:ml-[200px]">
               <div className="z-10 flex flex-col justify-around items-center md:w-[350px] w-[300px] h-[300px] bg-white p-9 shadow-services">
                 <h3 className='text-xl font-semibold mt-9'>Mukham</h3>
                 <img className='h-[300px]' src="/mukham-logo.svg" alt="" />

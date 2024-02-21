@@ -54,7 +54,7 @@ function Main() {
       </div>
     </section>
 
-    <section className="flex flex-col static ">
+    <section className="flex flex-col">
     <div className="flex flex-col md:flex-row gap-6 md:gap-16 justify-center mt-8 md:mt-52 mb-6">
       <Card1 arr={data[0]} />
       <Card1 arr={data[1]} />
@@ -76,7 +76,7 @@ function Main() {
 
 </section>
 
-<section className="flex flex-col text-center gap-3 w-full px-4 md:w-9/12 mx-auto">
+{/* <section className="flex flex-col text-center gap-3 w-full px-4 md:w-9/12 mx-auto">
   <h1 className="font-semibold text-xl md:text-2xl lg:text-3xl">Our Services</h1>
   <h1 className="font-semibold text-2xl md:text-4xl lg:text-5xl">With Quality services for you</h1>
   <div className="mt-10 flex flex-col md:flex-row md:justify-start gap-6 lg:gap-16 mx-auto">
@@ -89,8 +89,43 @@ function Main() {
       <Card2 arr={x} key={index}/>
     ))}
   </div>
-</section>
-
+</section> */}
+  {/* Services Intro Start */}
+      {/* <section className={`md:h-[900px] md:mb-0 mb-9 bg-gradient-to-r from-[#F1F1F4]  to-[#DEDDEA]`}> */}
+      <section className={`md:h-[900px] md:mb-0 mb-9 bg-gradient-to- from-[#F1F1F4]  to-[#DEDDEA]`}>
+        <div className="flex flex-col items-center md:items-strech gap-8 text-black">
+          <h4 className='text-black font-semibold text-center'>Our Services</h4>
+          <h1 className='text-4xl text-[#020329] font-semibold text-center'>With Quality Services For You</h1>
+          <div className="flex flex-col justify-left gap-6">
+            <div className="flex md:flex-row flex-col gap-6 md:ml-[200px]">
+              <div className="z-10 flex flex-col justify-around items-center md:w-[350px] w-[300px] h-[300px] bg-white p-9 shadow-services">
+                <h3 className='text-xl font-semibold mt-9'>Mukham</h3>
+                <img className='h-[300px]' src="/mukham-logo.svg" alt="" />
+                <p className='font-light text-xs text-center'>Application to simplfy the overall process of marking attendance</p>
+              </div>
+              <div className="flex flex-col justify-around items-center md:w-[350px] w-[300px] h-[300px] bg-white p-9 shadow-services">
+                <h3 className='text-xl font-semibold mt-9'>MauthN</h3>
+                <img className='h-[300px]' src="/m-auth.svg" alt="" />
+                <p className='font-light text-xs text-center mt-[15px]'>Admire the authentication</p>
+                <p className='font-light text-xs text-center'>Passwordless authentication to remove risk of cyber attacks</p>
+              </div>
+            </div>
+            <div className="flex md:flex-row flex-col gap-6 md:ml-[500px]">
+              <div className="z-10 flex flex-col justify-around items-center md:w-[350px] w-[300px] h-[300px] bg-white p-9 shadow-services">
+                <h3 className='text-xl font-semibold mt-9'>mXdr</h3>
+                <img className='h-[300px]' src="/mxdr.svg" alt="" />
+                <p className='font-light text-xs text-center'>Extended detection and response</p>
+              </div>
+              <div className="flex flex-col justify-around items-center md:w-[350px] w-[300px] h-[300px] bg-white p-9 shadow-services ">
+                <h3 className='text-xl font-semibold mt-9'>M-Isolate</h3>
+                <img className='h-[300px]' src="/m-isolate.svg" alt="" />
+                <p className='font-light text-xs text-center'>Disposable Workspaces & <br /> Safest Web Browser in the World!</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      {/* Services Intro End */}
 
     <section className="flex flex-col pt-20 pb-36 justify-center text-center gap-10 static">
       <h1 className="font-semibold text-4xl">Contact Us?</h1>
